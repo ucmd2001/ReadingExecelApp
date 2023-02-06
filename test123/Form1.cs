@@ -30,7 +30,7 @@ namespace test123
         private void Form1_Load(object sender, EventArgs e)
         {
             #region Road Excel
-            string filePath = @"C:\Users\FP0017.FOXWELLPOWER\Desktop\FP0017\雜七雜八需要的資料\Saft Protocol文件\富威電力50MW_IO表.xlsx";
+            string filePath = @"C:\Users\abc.xlsx";
             IWorkbook wk = null;
             string extension = Path.GetExtension(filePath);
             FileStream fs = File.OpenRead(filePath);
